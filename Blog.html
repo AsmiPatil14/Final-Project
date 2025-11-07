@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>University Website Design - Asmi Patil</title>
+        <link rel="stylesheet" href="Uni.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+    <section class="sub-header">
+        <nav>
+            <a href="Uni.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Uni.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2025 </h1> 
+    </section>
+
+    <!-------- blog page content -------->
+
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2025</h2>
+                <p>Empower your future with our 2025 Certificate & Online Programs.
+                   Designed for learners across the globe, anytime, anywhere.
+                   Choose from a wide range of career-focused and academic courses.
+                   Learn from world-class faculty and industry experts.</p>
+                <br>
+                <p>Engage in interactive, flexible, and self-paced learning formats.
+                   Track your progress with personalized dashboards and support.
+                   Build real-world skills through hands-on projects and case studies.
+                   Connect with a vibrant community of global learners and mentors.</p>
+                <br>
+                <p>Earn credentials that boost your resume and open new doors.
+                   Programs aligned with global standards and emerging trends.
+                   Upskill, reskill, or explore new fields with confidence.
+                   Access cutting-edge resources and expert guidance.</p>
+                 <br>
+                 <p>Enjoy multimedia-rich content and live virtual sessions.
+                    Receive feedback and certification upon successful completion.
+                    Secure, accessible platforms for seamless learning.
+                    Start your journey today—your future begins here.</p>
+
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                        </form>
+                    </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Arts & Humanities</span>
+                    <span>7</span>
+                </div>
+                <div>
+                    <span>Science & Technology</span>
+                    <span>7</span>
+                </div>
+                <div>
+                    <span>Business & Management</span>
+                    <span>7</span>
+                </div>
+                <div>
+                    <span>Health & Medicine</span>
+                    <span>7</span>
+                </div>
+                <div>
+                    <span>Engineering & Architecture</span>
+                    <span>7</span>
+                </div>
+                <div>
+                    <span>Social Sciences</span>
+                    <span>7</span>
+                </div>
+                <div>
+                    <span>Education & Teaching</span>
+                    <span>6</span>
+                </div>
+                <div>
+                    <span>Design & Media</span>
+                    <span>7</span>
+                </div>
+                <div>
+                    <span>Information Technology</span>
+                    <span>6</span>
+                </div>
+                <div>
+                    <span>Law & Legal Studies</span>
+                    <span>6</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+    <!-------- Footer -------->
+
+    <footer class="footer">
+        <h4>About Us</h4>
+        <p>Explore our vibrant academic community through the official University website.
+           Find detailed program information, admissions guidance, and campus resources.
+           <br>Stay updated with news, events, and student life highlights.
+           Your gateway to excellence, innovation, and opportunity.</p>
+           <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+           </div>
+           <p>Made with <i class="fa-solid fa-heart"></i> by Asmi Patil</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+<!-------- JavaScript for Toggle Menu -------->
+<script>
+
+    var navlinks = document.getElementById("navlinks");
+
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+
+</script>
+
+    </body>
+    </html>

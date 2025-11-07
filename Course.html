@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>University Website Design - Asmi Patil</title>
+        <link rel="stylesheet" href="Uni.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+    <section class="sub-header">
+        <nav>
+            <a href="Uni.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Uni.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1> 
+    </section>
+
+    <!-------- Course -------->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Explore and Choose Your Suitable Course With Us</p>
+
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Foundation Course</h3>
+                <p>Thinking about university but not quite ready? Our Foundation Course bridges the gap with tailored academic support.
+                   Build confidence in core subjects like Math, Science, and English.
+                   Learn study skills and critical thinking to thrive in higher education.
+                   Start strong—your university journey begins here!</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Step into your future with our University Degree programs—designed to unlock your full potential.
+                   Choose from a wide range of disciplines including Business, Science, Technology, and the Arts.
+                   Gain in-depth knowledge, hands-on experience, and critical thinking skills for the real world.
+                   Graduate with confidence, ready to lead, innovate, and make an impact.</p>
+            </div>
+            <div class="course-col">
+                <h3>Master's</h3>
+                <p>Elevate your expertise with our Master's programs—crafted for ambitious minds ready to lead and innovate.
+                   Dive deep into advanced study across fields like Business, Engineering, Health, and the Arts.
+                   Collaborate with top faculty, engage in research, and expand your global perspective.
+                   Accelerate your career and shape the future—your next chapter starts here.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-------- Facilities -------->
+    
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Our state-of-the-art facilities empower students with cutting-edge labs, modern classrooms, and vibrant social spaces for a dynamic learning experience.</p>
+        
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World Class Library</h3>
+                <p>Our world-class library offers cutting-edge resources, digital access, and serene study spaces to fuel academic excellence. 
+                   Explore thousands of books, journals, and research tools—all designed to support your learning journey.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p>Experience the thrill of sports and recreation on our university's largest playground—where champions are made and memories begin. 
+                   From football to athletics, it's a vibrant hub for fitness, fun, and student life.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Our superb cafeteria serves up delicious, diverse meals in a vibrant, welcoming atmosphere perfect for every palate. 
+                   Whether you're grabbing a quick coffee or enjoying a hearty lunch, it's the heart of campus life and flavor.</p>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-------- Footer -------->
+
+    <footer class="footer">
+        <h4>About Us</h4>
+        <p>Explore our vibrant academic community through the official University website.
+           Find detailed program information, admissions guidance, and campus resources.
+           <br>Stay updated with news, events, and student life highlights.
+           Your gateway to excellence, innovation, and opportunity.</p>
+           <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+           </div>
+           <p>Made with <i class="fa-solid fa-heart"></i> by Asmi Patil</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+<!-------- JavaScript for Toggle Menu -------->
+<script>
+
+    var navlinks = document.getElementById("navlinks");
+
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+
+</script>
+
+    </body>
+    </html>
